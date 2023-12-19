@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, types, executor
-from main3 import db_start, create_profile, edit
-bot = Bot('API')
+from sqlite import db_start, create_profile, edit
+bot = Bot('')
 po = Dispatcher(bot)
 
 async def lol(_):
