@@ -32,3 +32,5 @@ async def result(message: types.Message):
         await message.answer('Извините произошла ошибка, возможно ')
         os.remove(video)
         return
+if __name__ == '__main__':
+    executor.start_polling(dp, skip_updates=True)
