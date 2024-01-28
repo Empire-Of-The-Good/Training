@@ -7,7 +7,7 @@ import config
 bot = Bot(config.TOKEN)
 dp = Dispatcher(bot)
 
-
+#:)))
 @dp.message_handler(commands=['start'])
 async def start(message: types.Message):
     time.sleep(3)
